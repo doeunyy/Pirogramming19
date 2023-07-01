@@ -1,0 +1,103 @@
+@font-face {
+  font-family: 'TTTtangsbudaejjigaeB';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2212@1.0/TTTtangsbudaejjigaeB.woff2')
+    format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* reset.css */
+ul,
+ol {
+  list-style: none;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  font-weight: normal;
+  margin: 0;
+}
+/* end */
+
+body {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100vh;
+
+  background-image: url('https://www.gousa.or.kr/sites/default/files/styles/16_9_1280x720/public/2022-03/3a1f69f332d8f3313ce28bd128279d77.jpeg?h=bcf9f3f0&itok=rzQvhSqj');
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'TTTtangsbudaejjigaeB';
+}
+
+#main {
+  text-align: center;
+}
+
+#main h1 {
+  color: white;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+#countdown {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+.box {
+  margin: 0 10px;
+  font-size: 24px;
+  background-color: white;
+  padding: 36px;
+  border-radius: 20px;
+}
+
+.box span {
+  display: block;
+  font-size: 72px;
+}
+
+#days {
+  color: palevioletred;
+}
+#hours {
+  color: palevioletred;
+}
+#minutes {
+  color: palevioletred;
+}
+#seconds {
+  color: palevioletred;
+}
+
+#goals {
+  background-color: white;
+  padding: 50px 60px;
+  border-radius: 20px;
+}
+
+#goals h1 {
+  color: palevioletred;
+}
+
+#goals ul {
+  width: max-content;
+  margin-top: 55px;
+}
+
+#goals li {
+  font-size: 24px;
+  margin: 20px 0;
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  text-underline-offset: 10px;
+  text-decoration-color: palevioletred;
+}
