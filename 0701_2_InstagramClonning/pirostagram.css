@@ -1,0 +1,16 @@
+:root {
+  --gray1: lightgray;
+  --gray2: gray;
+
+  --main-border: 1px solid var(--gray2);
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  height: 2rem;
+  align-items: center;
+  padding: 0 1rem;
+  font-size: 1.25rem;
+  border-bottom: var(--main-border);
+}
