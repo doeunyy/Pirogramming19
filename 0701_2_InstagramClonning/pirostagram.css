@@ -98,3 +98,45 @@
   aspect-ratio: 1/1;
   object-fit: cover;
 }
+
+/* footer */
+
+header {
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+
+footer {
+  position: sticky;
+  bottom: 0;
+  background-color: white;
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  padding: 0.5rem 0;
+}
+
+.footer__container > div {
+  cursor: pointer;
+}
+
+.footer__item {
+  font-size: 1.5rem;
+}
+
+.footer__image {
+  height: 100%;
+}
+
+.footer__image > img {
+  width: 24px;
+  height: 24px;
+  padding: 2px;
+  border: var(--main-border);
+  border-radius: 100%;
+}
