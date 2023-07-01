@@ -14,3 +14,46 @@
   font-size: 1.25rem;
   border-bottom: var(--main-border);
 }
+
+/* profile */
+.profile {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 1rem;
+}
+
+.profile__top {
+  display: flex;
+  /* gap: 1rem; */
+  margin-bottom: 1rem;
+}
+
+.profile__left > img {
+  height: 5rem;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  border-radius: 50%;
+  border: var(--main-border);
+  padding: 3px;
+}
+
+.profile__right {
+  display: flex;
+  flex-direction: column;
+  /* column 방향이므로 justify-content 와 align-itmes 반대로*/
+  justify-content: space-between;
+  /* align-items: center; */
+  width: 100%;
+}
+
+.profile__username {
+  font-size: 1.5rem;
+}
+
+.profile__button > button {
+  width: 100%;
+  background-color: var(--gray1);
+  border: none;
+  padding: 0.3rem 0;
+  border-radius: 5px;
+}
