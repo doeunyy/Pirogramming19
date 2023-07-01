@@ -1,3 +1,3 @@
 def piro():
-    print("함수 수정")
+    print("함수 로그아웃")
     return 1
