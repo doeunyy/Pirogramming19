@@ -50,3 +50,50 @@ h1 {
 
   margin-bottom: 50px;
 }
+
+/* 캘린더 */
+#calendar {
+  list-style: none;
+
+  display: flex;
+  justify-content: space-between;
+
+  margin-bottom: 50px;
+}
+
+#calendar > li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+#calendar > li > * {
+  font-size: 12px;
+}
+
+#calendar > li > time {
+  width: 20px;
+  height: 20px;
+
+  background-image: url(images/todo_icon.svg);
+  background-size: cover;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#calendar > li > #today {
+  background-color: var(--color-green);
+  color: black;
+
+  width: 20px;
+  height: 20px;
+
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
