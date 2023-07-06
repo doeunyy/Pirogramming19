@@ -97,3 +97,106 @@ h1 {
   justify-content: center;
   align-items: center;
 }
+
+/* main */
+main > h2 {
+  font-size: 16px;
+
+  background-color: var(--color-dark-grey);
+  color: var(--color-green);
+
+  width: max-content;
+  padding: 8px 10px;
+
+  border-radius: 20px;
+}
+
+main > h2 > button {
+  background-color: transparent;
+  border: 1px solid var(--color-green);
+  border-radius: 50%;
+
+  width: 18px;
+  height: 18px;
+
+  margin-left: 5px;
+}
+
+button:hover {
+  background-color: var(--color-green);
+}
+
+button:hover span {
+  color: black;
+}
+
+main > h2 > button > span {
+  color: var(--color-green);
+
+  /* 추가: + 위치 조정 */
+  position: relative;
+  top: -1px;
+}
+
+/* todo list */
+main > ul > li {
+  list-style: none;
+  margin: 20px 10px;
+
+  display: flex;
+  gap: 10px;
+}
+
+/* main > ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+} */
+
+main > ul > li::before {
+  content: '';
+  background-image: url(images/todo_icon.svg);
+
+  width: 20px;
+  height: 20px;
+
+  display: block;
+  background-size: cover;
+
+  cursor: pointer;
+}
+
+main > ul > li.checked::before {
+  content: '';
+  background-image: url(images/todo_icon_fill.svg);
+
+  width: 20px;
+  height: 20px;
+
+  display: block;
+  background-size: cover;
+
+  cursor: pointer;
+}
+
+#list-container > li > button > small {
+  color: var(--color-dark-grey);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 1px;
+}
+
+#list-container > li > button {
+  background-color: var(--color-green);
+  border: none;
+  border-radius: 50%;
+
+  width: 18px;
+  height: 18px;
+}
+
+#list-container > li > input:focus {
+  outline: none;
+}
